@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Form Elements">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Form Elements</title>
+        
+    </head>
+    
+    <body>
+        
+        <!--h1,legend,label,input-text,password,number,email,submit,reset,radio,checkbox,select-->
+        
+        <h1>Form Elements</h1>
+        <form>
+        <fieldset>
+            <legend><h2>Basic Details</h2></legend>
+            
+            <p>
+            <label for="Name">Name : </label>
+            <input type="text" Name="name" id="name" placeholder="Enter your name"></p>
+            
+            <p>
+            <label for="Number">Number : </label>
+            <input type="number" name="number" id="number" placeholder="Enter the Number"></p>
+            
+            <p>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" placeholder="Enter you Email Address"></p>
+            
+            <p>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" placeholder="Enter the password"></p>
+            
+            <p>
+            <label for="URL">URL : </label>
+            <input type="url" name="url" id="url" placeholder="http://someurl.in"></p>
+            
+        </fieldset>
+            
+        <fieldset>
+            <legend><h2>Select Form Element</h2></legend>
+            
+            <p>
+                <label for="select">Select</label>
+                <select id="select">
+                    
+                    <optgroup label="Option Group 1">
+                        <option>Option1 one</option>
+                        <option>Option2 two</option>
+                        <option>Option3 three</option>
+                    </optgroup>
+                    <optgroup label="Option Group 2">
+                        <option>Option1 One</option>
+                        <option>Option2 Two</option>
+                        <option>Option3 Three</option>
+                    </optgroup>
+                
+                </select>
+            </p>
+        </fieldset>
+            
+        <fieldset>
+            <legend>Radio Button Element</legend>
+    
+                <ul>
+                    <li>
+                        <label for="radio_option_1">Radio Option1</label>
+                        <input type="radio" id="radio_option1" name="Radio1">
+                    </li>
+                    <li>
+                        <label for="radio_option_2">Radio Option2</label>
+                        <input type="radio" id="radio_option2" name="Radio1">
+                    
+                    </li>
+                </ul>
+            
+        </fieldset>
+        
+        <fieldset>
+            
+            <legend>CheckBox Element</legend>
+            <p>
+                <label for="checkbox-option1">CheckBox1</label>
+                <input type="checkbox" id="Checkbox1" name="Checkbox1"><br>
+                <label for="checkbox-option2">CheckBox2</label>
+                <input type="checkbox" id="Checkbox2" name="Checkbox2"><br>
+                <label for="checkbox-option3">CheckBox3</label>
+                <input type="checkbox" id="Checkbox2" name="Checkbox2">
+            </p>
+        </fieldset>
+            
+        <fieldset>
+            <legend>TextArea Elements</legend>
+            <p>
+                <label for="textarea1">Text Area : </label>
+                <textarea id="textarea1" rows="4" cols="45 " placeholder="Enter the Text here"></textarea>
+            </p>
+        </fieldset>
+        <p><input type="submit">&nbsp;&nbsp;
+            <input type="reset"></p>
+       
+        </form>
+    
+    </body>
+
+
+</html>

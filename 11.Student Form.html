@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Student">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Student Entry Form</title>
+        
+    </head>
+    
+    <body>
+        
+        <!--h1,legend,label,input-text,password,number,email,submit,reset,radio,checkbox,select-->
+        
+       <h1>Student Form</h1> 
+        <form>
+            <fieldset>
+                <legend>Basic Entry</legend>
+                
+                    <p>
+                    <label for="Name">Full Name : </label>
+                    <input type="text" name="fullname" id="fname" placeholder="Enter Your name"></p>
+                
+                    <p>
+                    <label for="Age">Age : </label>
+                    <input type="number" name="age" id="age" placeholder="Enter your Age">
+                    </p>
+                
+                    <p>
+                        <label for="email">Email : </label>
+                        <input type="Email" name="email" id="email" placeholder="Enter your Email Address">
+                    </p>
+                
+                    <p>
+                        <label for="Mobile">Mobile Number : </label>
+                        <input type="tel" name="mobile" id="mobile" placeholder="Enter Yuor Mobile number">
+                    </p>
+                
+                    <p>
+                        <label for="Address">Address : </label>
+                        <textarea id="address" name="address1" rows="5" cols="50">Enter the Address Here.</textarea>
+                    </p>
+    
+            </fieldset>
+            
+            <fieldset>
+                
+                <legend>Cousre Details</legend>
+                <p>
+                    <label for="select">Applying For : </label>
+                    <select id="seelct_class">
+                        <optgroup label="primary">
+                            <option>PREKG</option>
+                            <option>UKG</option>
+                            <option>LKG</option>
+                        </optgroup>
+                        
+                        <optgroup label="Secondary">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </optgroup>
+                        
+                        <optgroup label="HighSecondary">
+                            <option>11</option>
+                            <option>12</option>
+                        </optgroup>
+                    
+                    </select>
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    <label for="Male">Male : </label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <p>
+                    <label for="Comments">About yourself : </label>
+                    <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+                
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Send">&nbsp; &nbsp;
+                <input type="reset" value="Clear">
+            </p>
+        </form>
+    </body>
+
+
+</html>
